@@ -23,21 +23,21 @@ APIS = [
         "url": os.getenv("AWS_MASTER_URL"),
         "username": os.getenv("AWS_MASTER_USERNAME"),
         "password": os.getenv("AWS_MASTER_PASSWORD"),
-        "source" : "AWS"
+        "source" : "AWS station"
     },
     {
         "name": "AWLR Master",
         "url": os.getenv("AWLR_MASTER_URL"),
         "username": os.getenv("AWLR_MASTER_USERNAME"),
         "password": os.getenv("AWLR_MASTER_PASSWORD"),
-        "source" : "AWLR"
+        "source" : "AWLR station"
     },
     {
         "name": "ARG Master",
         "url": os.getenv("ARG_MASTER_URL"),
         "username": os.getenv("ARG_MASTER_USERNAME"),
         "password": os.getenv("ARG_MASTER_PASSWORD"),
-        "source" : "ARG"
+        "source" : "ARG station"
     }
 ]
 
